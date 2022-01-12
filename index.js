@@ -23,7 +23,7 @@ async function run() {
         const reviewCollection = database.collection('reviews');
         const myOrdersCollection = database.collection('myOrders');
 
-        console.log('database connect successfully');
+        // console.log('database connect successfully');
 
         //GET services api
         app.get('/services', async (req, res) => {
